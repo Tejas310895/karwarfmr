@@ -70,9 +70,9 @@
           <li class="nav-item dropdown mr-1">
             <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-toggle="dropdown">
               <i class="ti-bell mx-0"></i>
-                <span class="badge badge-primary bell-badge rounded-circle px-2 py-1">
+                <!-- <span class="badge badge-primary bell-badge rounded-circle px-2 py-1">
                   <h6 class="mb-0">4</h6>
-                </span>
+                </span> -->
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="messageDropdown">
               <p class="mb-0 font-weight-normal float-left dropdown-header">Notification</p>
