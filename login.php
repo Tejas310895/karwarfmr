@@ -21,7 +21,8 @@ include "includes/db.php";
   <!-- inject:css -->
   <link rel="stylesheet" href="RoyalUI/template/css/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="RoyalUI/template/images/favicon.png" />
+  <!-- <link rel="shortcut icon" href="RoyalUI/template/images/favicon.png" /> -->
+  <link rel="shortcut icon" href="images/karwarslogo.png" />
 </head>
 
 <body>

@@ -84,6 +84,18 @@ $current_balance = (($earnings*0.01)+$bonus_total)-($credit_total+$debit_total);
             <div class="col-md-3 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
+                  <h2 class="card-title text-md-center text-xl-left">Total Business Given</h2>
+                  <div class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
+                    <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0"><?php echo $earnings; ?>/-</h3>
+                    <i class="ti-money icon-md text-muted mb-0 mb-md-3 mb-xl-0"></i>
+                  </div>  
+                  <!-- <p class="mb-0 mt-2 text-danger">0.12% <span class="text-black ml-1"><small>(30 days)</small></span></p> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
                   <h2 class="card-title text-md-center text-xl-left">Earnings</h2>
                   <div class="d-flex flex-wrap justify-content-between justify-content-md-center justify-content-xl-between align-items-center">
                     <h3 class="mb-0 mb-md-2 mb-xl-0 order-md-1 order-xl-0"><?php echo $earnings*0.01; ?>/-</h3>
